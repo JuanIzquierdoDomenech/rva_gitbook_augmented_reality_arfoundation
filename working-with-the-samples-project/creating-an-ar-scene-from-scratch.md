@@ -83,21 +83,22 @@ Key responsibilities:
 
 The basic scene has been prepared and, if we build the app on a device, it should open the camera; however, we need to specify which trackables we want to track. We can see the documentation what kind of trackables are available:
 
-{% embed url="https://docs.unity3d.com/Packages/com.unity.xr.arfoundation@6.2/manual/architecture/managers.html" %}
+{% embed url="https://docs.unity3d.com/Packages/com.unity.xr.arfoundation@6.6/manual/architecture/managers.html" %}
 
 ### Most common Trackables
 
 <table><thead><tr><th width="291.1171875">Trackable Manager</th><th>Purpose / Description</th></tr></thead><tbody><tr><td><strong><code>ARPlaneManager</code></strong></td><td>Detect and track flat surfaces (floors, walls, tabletops), useful to place virtual objects anchored to real-world planes.</td></tr><tr><td><strong><code>ARPointCloudManager</code></strong></td><td>Detect and track feature points (point-cloud data) from the environment — useful for spatial awareness, custom placement logic or meshing.</td></tr><tr><td><strong><code>ARAnchorManager</code></strong></td><td>Manage anchors — stable, persistent points in space (independent of planes) to which you can attach virtual content and keep it locked in place.</td></tr><tr><td><strong><code>ARRaycastManager</code></strong></td><td>Perform raycasts against tracked surfaces/points to detect where virtual objects could be placed (e.g. tapping on floor → hit a plane or feature point).</td></tr><tr><td><strong><code>ARTrackedImageManager</code></strong></td><td>Detect and track 2D reference images in the physical environment (from a reference image library), enabling image-based triggers or content placement.</td></tr><tr><td><strong><code>AREnvironmentProbeManager</code></strong></td><td>Capture environment data (cubemaps) to enable realistic lighting/reflections of virtual content based on real-world lighting and environment.</td></tr><tr><td><strong><code>ARFaceManager</code></strong></td><td>Detect and track human faces in view — useful for face-based AR effects, filters, or facial interactions.</td></tr><tr><td><strong><code>ARTrackedObjectManager</code></strong></td><td>Detect and track 3D objects (when supported) — allows AR experiences to react to real-world 3D objects recognized by the device.</td></tr></tbody></table>
 
-* To keep it simple,  let's work with the [`ARRaycastManager`](https://docs.unity3d.com/Packages/com.unity.xr.arfoundation@6.2/manual/features/raycasts.html#ar-raycast-manager-component) and an [`ARPlaneManager`](https://docs.unity3d.com/Packages/com.unity.xr.arfoundation@6.2/manual/features/plane-detection.html#ar-plane-manager-component) that are already present in the _XR Origin_ GameObject
+* To keep it simple, let's work with the [`ARRaycastManager`](https://docs.unity3d.com/Packages/com.unity.xr.arfoundation@6.2/manual/features/raycasts.html#ar-raycast-manager-component) and an [`ARPlaneManager`](https://docs.unity3d.com/Packages/com.unity.xr.arfoundation@6.2/manual/features/plane-detection.html#ar-plane-manager-component) that are already present in the _XR Origin_ GameObject
 
 <figure><img src="../.gitbook/assets/plane_raycast_managers.png" alt="" width="375"><figcaption></figcaption></figure>
 
-* Drag the "**AR Plane Debug Visualizer**" prefab into the "Plane Prefab" slot of the `ARPlaneManager` component, and, if you run the app, you should see something like this when moving your phone:
+* Drag the "**AR Plane Debug Visualizer**" prefab into the "Plane Prefab" (it's in the **Prefabs** folder) slot of the `ARPlaneManager` component, and, if you run the app, you should see something like this when moving your phone:
 
 <figure><img src="../.gitbook/assets/planes.gif" alt="" width="320"><figcaption><p>The plane manager is in charge of detecting horizontal and vertical surfaces</p></figcaption></figure>
 
 * To place a GameObject in the world, create it and make a prefab out of it (such as a cube)
+  * To create a Prefab, create the GameObject in the scene and drag it into the **Project** window.
 
 {% hint style="warning" %}
 Take into account the SCALE and the ORIGIN POSITION (This position will be the one that will intersect with the plane)
