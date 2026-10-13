@@ -1,12 +1,12 @@
 # Interaction scene
 
 {% hint style="info" %}
-To load this scene, we should first import the **AR Starter Assets** samples from the XR Interaction Toolkit Package
+To load this scene, we should first import the **AR Starter Assets** samples from the XR Interaction Toolkit Package.
 
 ![](../.gitbook/assets/ar_starter_import.png)
 {% endhint %}
 
-This scene, located inside the _AR Starter Assets_ folder (inside the root _Samples_ folder), allows us to spawn cubes and interact with them either by **selecting** them, **translating** them, **rotating** them and **scaling** them, using touch gestures such as one finger swipe, or two finger pinch.
+This scene, located inside the _AR Starter Assets_ folder (inside the _Samples/XR Interaction Toolkit/Version/_ folder), allows us to spawn cubes and interact with them either by **selecting** them, **translating** them, **rotating** them and **scaling** them, using touch gestures such as one finger swipe, or two finger pinch.
 
 <figure><img src="../.gitbook/assets/ar_interacor_cube.png" alt="" width="375"><figcaption></figcaption></figure>
 
