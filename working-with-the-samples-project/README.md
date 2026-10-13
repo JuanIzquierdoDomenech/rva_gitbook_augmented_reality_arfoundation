@@ -10,15 +10,15 @@ For this reason, Unity provides a **repository** with example scenes that demons
 
 Depending on the Unity version you have installed, you will have to select a specific branch of the repository to clone/download:
 
-<figure><img src="../.gitbook/assets/which_version.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/6_6_which_version.png" alt=""><figcaption></figcaption></figure>
 
 {% hint style="info" %}
-For example, if we're using Unity 6.2, we should download the repository at the following URL:
+For example, if we're using Unity 6.6, we should download the repository at the following URL:
 
-[https://github.com/Unity-Technologies/arfoundation-samples/tree/6.2](https://github.com/Unity-Technologies/arfoundation-samples/tree/6.2)
+[https://github.com/Unity-Technologies/arfoundation-samples/tree/6.6](https://github.com/Unity-Technologies/arfoundation-samples/tree/6.6)
 {% endhint %}
 
-Once downloaded, in the Unity Hub, we need to add a new project form disk:
+Once downloaded (and unzipped), in the Unity Hub, we need to add a new project form disk:
 
 <figure><img src="../.gitbook/assets/add_form_disk.png" alt=""><figcaption></figcaption></figure>
 
@@ -27,7 +27,7 @@ Whenever we try to open an already created Unity project BUT we don't have the U
 
 We need to select if we want to **UPGRADE** to a new Unity version (from the installed ones), or **DOWNLOAD** the original version.
 
-In this case, we will **UPGRADE** from Unity 6.1.1 to 6.2.10.
+In the case of the screenshots, we would **UPGRADE** from Unity 6.1.1 to 6.2.10, so your Unity versions might differ.
 {% endhint %}
 
 <figure><img src="../.gitbook/assets/newer_version.png" alt=""><figcaption><p>Upgrading the downloaded project to a newer version</p></figcaption></figure>

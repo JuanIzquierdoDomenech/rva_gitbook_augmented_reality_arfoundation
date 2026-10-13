@@ -58,3 +58,7 @@ That same window might also indicate us if we need to do some <mark style="backg
 ***
 
 _Following these steps once in your life is a great tool so that you get to know how these libraries are installed from scratch; however, **ARFoundation** is not as easy to use as other tools (such as Vuforia), so we usually start from a project with examples, as explained in the following section..._
+
+{% hint style="info" %}
+Don't worry, because we will create a scene from scratch after downloading the template.
+{% endhint %}
