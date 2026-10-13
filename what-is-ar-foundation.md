@@ -29,12 +29,12 @@ The following table summarizes the support for key AR Foundation features across
 | ----------------- | ----------- | ------- | ------------ | ------------ | -------------- | -------------- | ----------------- |
 | _Session_         | Yes         | Yes     | Yes          | Yes          | Yes            | Yes            | Yes               |
 | _Device tracking_ | Yes         | Yes     | Yes          | Yes          | Yes            | Yes            | Yes               |
-| _Camera_          | Yes         | Yes     |              | Yes          | Yes            | Yes            | Yes               |
+| _Camera_          | Yes         | Yes     |              |              | Yes            | Yes            | Yes               |
 | _Plane detection_ | Yes         | Yes     | Yes          | Yes          | Yes            | Yes            | Yes               |
 | _Image tracking_  | Yes         | Yes     | Yes          |              |                |                | Yes               |
-| _Face tracking_   | Yes         | Yes     |              |              | Yes            |                |                   |
-| _Meshing_         |             | Yes     | Yes          | Yes          | Yes            |                | Yes               |
-| _Occlusion_       | Yes         | Yes     |              | Yes          | Yes            | Yes            | Yes               |
+| _Face tracking_   | Yes         | Yes     |              |              |                | Yes            |                   |
+| _Meshing_         |             | Yes     | Yes          | Yes          | Yes            | Yes            | Yes               |
+| _Occlusion_       | Yes         | Yes     |              |              | Yes            | Yes            | Yes               |
 | _Raycasts_        | Yes         | Yes     |              | Yes          | Yes            | Yes            | Yes               |
 | _Anchors_         | Yes         | Yes     | Yes          | Yes          | Yes            | Yes            | Yes               |
 
