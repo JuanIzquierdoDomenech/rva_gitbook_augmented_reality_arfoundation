@@ -2,7 +2,7 @@
 
 {% embed url="https://docs.unity3d.com/Packages/com.unity.xr.arfoundation@6.6/manual/index.html" %}
 
-AR Foundation is Unity’s own solution for developing **Augmented Reality** applications, within the broader framework the platform provides for creating [**Extended Reality (XR)**](https://docs.unity3d.com/6000.2/Documentation/Manual/XR.html) experiences:
+AR Foundation is Unity’s own solution for developing **Augmented Reality** applications, within the broader framework the platform provides for creating [**Extended Reality (XR)**](https://docs.unity3d.com/6000.6/Documentation/Manual/XR.html) experiences:
 
 * **Augmented Reality (AR)**
 * **Virtual Reality (VR)**
