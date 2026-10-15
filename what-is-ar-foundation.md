@@ -15,7 +15,6 @@ Specifically, AR Foundation provides support for developing AR applications on t
 * **Android**: via **ARCore**
 * **iOS**: via **ARKit**
 * **visionOS**: for A**pple Vision Pro**
-* **HoloLens 2**: using the **OpenXR** Plug-in
 * **Meta Quest**: using the **OpenXR** Plug-in
 * **Android XR**: using the **OpenXR** Plug-in
 
@@ -25,18 +24,18 @@ Specifically, AR Foundation provides support for developing AR applications on t
 
 The following table summarizes the support for key AR Foundation features across major platforms. This overview focuses on the most widely used and essential capabilities for building cross-platform AR applications.
 
-| **Feature**       | **Android** | **iOS** | **visionOS** | **HoloLens** | **Meta Quest** | **Android XR** | **XR Simulation** |
-| ----------------- | ----------- | ------- | ------------ | ------------ | -------------- | -------------- | ----------------- |
-| _Session_         | Yes         | Yes     | Yes          | Yes          | Yes            | Yes            | Yes               |
-| _Device tracking_ | Yes         | Yes     | Yes          | Yes          | Yes            | Yes            | Yes               |
-| _Camera_          | Yes         | Yes     |              |              | Yes            | Yes            | Yes               |
-| _Plane detection_ | Yes         | Yes     | Yes          | Yes          | Yes            | Yes            | Yes               |
-| _Image tracking_  | Yes         | Yes     | Yes          |              |                |                | Yes               |
-| _Face tracking_   | Yes         | Yes     |              |              |                | Yes            |                   |
-| _Meshing_         |             | Yes     | Yes          | Yes          | Yes            | Yes            | Yes               |
-| _Occlusion_       | Yes         | Yes     |              |              | Yes            | Yes            | Yes               |
-| _Raycasts_        | Yes         | Yes     |              | Yes          | Yes            | Yes            | Yes               |
-| _Anchors_         | Yes         | Yes     | Yes          | Yes          | Yes            | Yes            | Yes               |
+| **Feature**       | **Android** | **iOS** | **visionOS** | **Meta Quest** | **Android XR** | **XR Simulation** |
+| ----------------- | ----------- | ------- | ------------ | -------------- | -------------- | ----------------- |
+| _Session_         | Yes         | Yes     | Yes          | Yes            | Yes            | Yes               |
+| _Device tracking_ | Yes         | Yes     | Yes          | Yes            | Yes            | Yes               |
+| _Camera_          | Yes         | Yes     |              | Yes            | Yes            | Yes               |
+| _Plane detection_ | Yes         | Yes     | Yes          | Yes            | Yes            | Yes               |
+| _Image tracking_  | Yes         | Yes     | Yes          |                |                | Yes               |
+| _Face tracking_   | Yes         | Yes     |              |                | Yes            |                   |
+| _Meshing_         |             | Yes     | Yes          | Yes            | Yes            | Yes               |
+| _Occlusion_       | Yes         | Yes     |              | Yes            | Yes            | Yes               |
+| _Raycasts_        | Yes         | Yes     |              | Yes            | Yes            | Yes               |
+| _Anchors_         | Yes         | Yes     | Yes          | Yes            | Yes            | Yes               |
 
 Below are the core features that matter most when designing AR experiences with AR Foundation, explained briefly and clearly.
 
