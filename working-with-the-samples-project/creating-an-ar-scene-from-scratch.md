@@ -26,7 +26,7 @@ The [_**XR Origin**_](https://docs.unity3d.com/6000.2/Documentation/Manual/xr-or
    While the user’s tracked devices move relative to the _XR Origin_, the _XR Origin_ can be moved programmatically (e.g., teleportation or smooth locomotion).
 {% endhint %}
 
-This _**XR Origin**_ GameObject has a child GameObject with the AR camera, which includes certain specific [components](https://docs.unity3d.com/Packages/com.unity.xr.arfoundation@6.2/manual/features/camera/camera-components.html):
+This _**XR Origin**_ GameObject has a child GameObject with the AR camera, which includes certain specific [components](https://docs.unity3d.com/Packages/com.unity.xr.arfoundation@6.6/manual/features/camera/camera-components.html):
 
 <figure><img src="../.gitbook/assets/camera_of_ar.png" alt="" width="563"><figcaption><p>Components of the AR camera</p></figcaption></figure>
 
