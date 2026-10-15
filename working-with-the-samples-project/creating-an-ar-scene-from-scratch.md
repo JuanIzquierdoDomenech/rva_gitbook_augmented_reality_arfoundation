@@ -70,13 +70,13 @@ The **`TrackedPoseDriver`** in Unity is a component that takes the real-world po
 * Create a new GameObject form the **Hierarchy** window, _XR → AR Session_
 
 {% hint style="info" %}
-The [**`ARSession`**](https://docs.unity3d.com/Packages/com.unity.xr.arfoundation@6.2/manual/features/session/arsession.html) component manages the entire AR experience’s lifecycle. When active, it starts the device’s AR subsystem; when disabled, it stops AR and halts tracking. On non-OpenXR platforms, toggling ARSession enables or disables AR features in the build.
+The [**`ARSession`**](https://docs.unity3d.com/Packages/com.unity.xr.arfoundation@6.6/manual/features/session/arsession.html) component manages the entire AR experience’s lifecycle. When active, it starts the device’s AR subsystem; when disabled, it stops AR and halts tracking. On non-OpenXR platforms, toggling `ARSession` enables or disables AR features in the build.
 
 Key responsibilities:
 
-* **Start/Stop AR session** — enabling/disabling ARSession initiates or ends tracking and environment detection.
-* **Session state management** — you can query the current session status (e.g. checking if AR is supported, if setup is done, or if tracking has started) through `ARSession.state`.
-* **Configuration options** — e.g. on supported platforms you can set `attemptUpdate` (to prompt software updates if needed), or configure frame-rate synchronization to match AR subsystem updates.
+* **Start/Stop AR session**: enabling/disabling ARSession initiates or ends tracking and environment detection.
+* **Session state management**: you can query the current session status (e.g. checking if AR is supported, if setup is done, or if tracking has started) through `ARSession.state`.
+* **Configuration options**: e.g. on supported platforms you can set `attemptUpdate` (to prompt software updates if needed), or configure frame-rate synchronization to match AR subsystem updates.
 {% endhint %}
 
 ***
